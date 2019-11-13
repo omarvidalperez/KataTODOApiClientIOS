@@ -25,6 +25,7 @@
 		EB2B5E9C1E657D5700B62211 /* addTaskToUserResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = EB28C89C1C6E0364004A5E74 /* addTaskToUserResponse.json */; };
 		EB2B5E9D1E657D5A00B62211 /* updateTaskRequest.json in Resources */ = {isa = PBXBuildFile; fileRef = EB28C89E1C6E1E26004A5E74 /* updateTaskRequest.json */; };
 		EB2B5E9E1E657D5E00B62211 /* updateTaskResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = EB28C8A01C6E1EFC004A5E74 /* updateTaskResponse.json */; };
+		EF2D0508237C045C0042A627 /* getEmptyTasksResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = EF2D0507237C045C0042A627 /* getEmptyTasksResponse.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,7 @@
 		EB28C8A01C6E1EFC004A5E74 /* updateTaskResponse.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = updateTaskResponse.json; sourceTree = "<group>"; };
 		EB2B5E8A1E657C8900B62211 /* KataTODOAPIClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KataTODOAPIClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB2B5E8E1E657C8A00B62211 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF2D0507237C045C0042A627 /* getEmptyTasksResponse.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = getEmptyTasksResponse.json; sourceTree = "<group>"; };
 		F06AD546F4EC015C4AEB6C1F /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -181,6 +183,7 @@
 			children = (
 				EB28C8911C6DFC23004A5E74 /* getTasksResponse.json */,
 				EB28C8981C6E00D5004A5E74 /* getTaskByIdResponse.json */,
+				EF2D0507237C045C0042A627 /* getEmptyTasksResponse.json */,
 				EB28C89A1C6E0327004A5E74 /* addTaskToUserRequest.json */,
 				EB28C89C1C6E0364004A5E74 /* addTaskToUserResponse.json */,
 				EB28C89E1C6E1E26004A5E74 /* updateTaskRequest.json */,
@@ -318,6 +321,7 @@
 				EB2B5E9B1E657D5400B62211 /* addTaskToUserRequest.json in Resources */,
 				EB2B5E9A1E657D5100B62211 /* getTaskByIdResponse.json in Resources */,
 				EB2B5E9D1E657D5A00B62211 /* updateTaskRequest.json in Resources */,
+				EF2D0508237C045C0042A627 /* getEmptyTasksResponse.json in Resources */,
 				EB2B5E991E657D4D00B62211 /* getTasksResponse.json in Resources */,
 				EB2B5E9C1E657D5700B62211 /* addTaskToUserResponse.json in Resources */,
 			);
