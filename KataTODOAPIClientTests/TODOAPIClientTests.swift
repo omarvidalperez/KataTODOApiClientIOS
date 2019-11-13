@@ -76,7 +76,6 @@ class TODOAPIClientTests: XCTestCase {
         apiClient.getAllTasks { response in
             result = response
         }
-
         expect { try result?.get() }.toEventually(throwError(TODOAPIClientError.networkError))
     }
 
