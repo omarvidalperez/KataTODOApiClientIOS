@@ -4,11 +4,11 @@ osx_image: xcode11
 before_install:
   - brew update
   - gem install xcpretty
-  - gem install cocoapods --version 1.8.1
-  - pod _1.8.1_ repo update
+  - gem install cocoapods --version 1.7.4
+  - pod _1.7.4_ repo update
 
 install:
-  - pod _1.8.1_ install
+  - pod _1.7.4_ install
 
 script:
   - swiftlint
